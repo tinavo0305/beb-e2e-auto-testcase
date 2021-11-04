@@ -1,0 +1,7 @@
+# Test report
+test-output
+
+# Others
+.classpath
+.project
+.settings
