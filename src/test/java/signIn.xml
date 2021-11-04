@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+	<test name="SignIn">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="settings.SignIn" />
+		</classes>
+	</test>
+
+	<test name="TestEditProfileDetails">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="settings.TestEditProfileDetails" />
+		</classes>
+	</test>
+
+	<test name="TestAdminEditSharedWorkspaceName">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="settings.TestAdminEditSharedWorkspaceName" />
+		</classes>
+	</test>
+
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="settings.TestFullMemberCantEditSharedWorkspace" />
+		</classes>
+	</test>
+
+
+
+</suite>
