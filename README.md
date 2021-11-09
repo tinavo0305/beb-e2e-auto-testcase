@@ -1,5 +1,5 @@
 # beb
-Bird Eats Bug automation tests
+BEB automation tests
 
 # Project structure
 
